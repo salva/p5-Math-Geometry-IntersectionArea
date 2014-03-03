@@ -198,7 +198,7 @@ Returns the area of the intersection between the circle of radius
 C<$r> centered in C<$o> and the polygon delimited by the list of
 points in C<@p>.
 
-=item intersection_area_rectangle($o, $r, $v0, $v1)
+=item intersection_area_circle_rectangle($o, $r, $v0, $v1)
 
 Returns the area of the intersection between the circle of radius C<$r>
 with center in C<$o> and the axis-aligned rectangle defined by its two
