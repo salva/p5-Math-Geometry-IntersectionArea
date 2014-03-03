@@ -158,7 +158,7 @@ __END__
 
 =head1 NAME
 
-Math::Geometry::IntersectionArea - Calculate area of geometric shapes intersection
+Math::Geometry::IntersectionArea - Calculate area of intersection of geometric shapes
 
 =head1 SYNOPSIS
 
@@ -200,7 +200,7 @@ points in C<@p>.
 
 =item intersection_area_rectangle($o, $r, $v0, $v1)
 
-Return the area of the intersection between the circle of radius C<$r>
+Returns the area of the intersection between the circle of radius C<$r>
 with center in C<$o> and the axis-aligned rectangle defined by its two
 corners C<$v0> and C<$v1>.
 
@@ -212,7 +212,7 @@ L<Math::Vector::Real>, L<Math::Vector::Real::XS>.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2014 by Salvador Fandiño E<lt>sfandino@yahoo.comE<gt>
+Copyright (C) 2014 by Salvador FandiE<ntilde>o E<lt>sfandino@yahoo.comE<gt>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.18.2 or,
