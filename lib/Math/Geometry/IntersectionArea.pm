@@ -156,6 +156,8 @@ sub intersection_area_circle_polygon {
 
 __END__
 
+=encoding utf8
+
 =head1 NAME
 
 Math::Geometry::IntersectionArea - Calculate area of intersection of geometric shapes
