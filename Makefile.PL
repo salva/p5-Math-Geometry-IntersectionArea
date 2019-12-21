@@ -6,4 +6,9 @@ WriteMakefile( NAME          => 'Math::Geometry::IntersectionArea',
                PREREQ_PM     => { 'Math::Vector::Real' => 0 },
                ABSTRACT_FROM => 'lib/Math/Geometry/IntersectionArea.pm',
                AUTHOR        => 'Salvador Fandiño <sfandino@yahoo.com>',
+               META_MERGE    => {
+                   resources => {
+                       repository => 'https://github.com/salva/p5-Math-Geometry-IntersectionArea',
+                   },
+               },
              );
